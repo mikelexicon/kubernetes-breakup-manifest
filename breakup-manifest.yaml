@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: breakup-manifest
+  labels:
+    situation: over
+data:
+  message.txt: |-
+    To you, my dear, I now must say goodbye; # 01
+    Our pods once paired now drift on different tides. # 02
+    The node that held us warm grows cold and dry, # 03
+    A rolling surge deletes what love provides. # 04
+    Liveness now fails within this weary heart, # 05
+    Readiness gates deny all traffic through. # 06
+    The service mesh unwinds; we stand apart, # 07
+    No ingress left to forward me to you. # 08
+    Accept this helm and chart your course anew; # 09
+    I run delete our joint release is done. # 10
